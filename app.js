@@ -151,18 +151,18 @@ const sections = [
     ]
   },
   {
-    key: "K", label: "H", title: "Circle the correct words.",
-    note: "This section is labelled H in the original test. Choose the adverb that matches the chart.", points: 4,
+    key: "K", label: "K", title: "Circle the correct words.",
+    note: "Choose the adverb that matches the number of check marks in the chart.", points: 4,
     questions: [
       choice("K1", "1. Martin hardly ever / never plays the piano.", ["hardly ever", "never"], "never", "The chart shows an X for Martin playing the piano. X means never."),
       choice("K2", "2. He sometimes / usually goes to the park.", ["sometimes", "usually"], "sometimes", "Two check marks mean sometimes."),
-      choice("K3", "3. Sara always / sometimes eats fruit.", ["always", "sometimes"], "always", "Sara has four check marks for eating fruit. In the chart key, four check marks mean always."),
+      choice("K3", "3. Sara usually / sometimes eats fruit.", ["usually", "sometimes"], "usually", "Sara has four check marks for eating fruit. In the chart key, four check marks mean usually."),
       choice("K4", "4. She never / hardly ever plays soccer.", ["never", "hardly ever"], "hardly ever", "One check mark means hardly ever.")
     ]
   },
   {
-    key: "L", label: "F", title: "Write the words in the correct order to make sentences.",
-    note: "This section is labelled F in the original test. Write a complete sentence.", points: 4,
+    key: "L", label: "L", title: "Write the words in the correct order to make sentences.",
+    note: "Write each group of words as a complete sentence.", points: 4,
     questions: [
       input("L1", "1. drink / I / milk / never", ["I never drink milk.", "I never drink milk"], "Place the frequency adverb before the main verb: I never drink milk."),
       input("L2", "2. lunch / They / eat / always", ["They always eat lunch.", "They always eat lunch"], "Always goes before the main verb eat: They always eat lunch."),
